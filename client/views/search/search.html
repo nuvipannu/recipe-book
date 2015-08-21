@@ -1,0 +1,11 @@
+<template name="search">
+
+<h1>Search</h1>
+<input id="search" name="search" type="text" class="button" placeholder="ENTER RECIPE NAME OR INGREDIENT(S) TO START YOUR SEARCH... :)"/>
+<br />
+{{#each results}}
+	{{>recipe}}
+{{else}}
+{{/each}}
+
+</template>

@@ -1,0 +1,16 @@
+Create a searchable recipe book
+
+Each recipe should have a name, a list of ingredients (single string is fine for now), and directions.
+
+There should be a form for adding recipes and an index of recipes. Same page or different routes, don't care.
+For the form, description should have a <textarea> as opposed to an <input>.
+
+There should be basic validation, at least on the server side, if not on the client as well.
+i.e. only recipes with String names, String ingredient lists, and optional String descriptions
+should be allowed in the database. **No other fields should be allowed in the database.**
+
+Recipes should be searchable based on name and ingredients, not directions.
+
+It shouldn't look like total shit.
+
+That is all.
